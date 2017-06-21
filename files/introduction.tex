@@ -1,0 +1,57 @@
+\section{Introduction}
+
+%\eric{4pages! title, abstract, intro to finish on page 1}
+
+% \eric{Abstract, Intro: Basic assumption JIT+long-term; this is a KM problem}
+
+
+%\eric{Context: More and more system development companies are turning towards agile...}
+In this position paper, we argue based on our experience in several projects that while just-in-time management of quality requirements is important in agile development, it must be complemented by an initiative to manage long-term aspects of quality requirements and to build and use knowledge about the system under construction.
+
+
+%Agile approaches have significantly changed the way software is developed \cite{Meyer2014}.
+%Based on reports of successes with small teams \cite{Meyer2014,kahkonen2004agile,beck2000extreme,paasivaara2016challenges}, these approaches are more and more applied in large scale \cite{dikert2016challenges,lagerberg13,salo2008agile} and in system development \cite{eklund14,berger15,lagerberg13}, an environment that is characterized by long lead times \cite{berger15} and stable, sequential engineering practices \cite{pernstal12}.
+
+%\eric{Quality requirements have JIT and long-term aspects and we cannot support one without knowing about the other. A holistic knowledge management approach is needed.}
+
+Agile software development lacks systematic approaches for managing quality requirements \cite{inayat2015systematic} and needs further research, even though a variety of promising practices for managing quality requirements are known \cite{Alsaqaf2017}. 
+Among those, some relate to just-in-time aspects of quality requirements engineering: relying on face-to-face communication and iterative emergence of requirements \cite{Alsaqaf2017}. 
+Others imply a long-term perspective on quality requirements, as for example product grooming, continuous integration, and test-driven development \cite{Alsaqaf2017}.
+Yet, existing challenges of managing quality requirements in agile development show an inability to synchronize just-in-time RE activities and long-term perspectives on architecture and system verification. 
+This is concerning: on the one hand, we need just-in-time analysis of quality requirements to operationalize them for functionality currently under development.
+On the other hand, quality requirements can be considered long-term business drivers that allow diversification from competitors \cite{BerntssonSvensson2015}.
+A%s Cockburn argues, a
+n agile team not only needs to care about the current %game (i.e. the current
+release or project%, the current project)
+, but also about the next %game
+\cite{Cockburn2009}.
+
+\textbf{Proposition 1} (JIT vs. Long-Term): \emph{We propose that JIT management of quality requirements must be complemented by an initiative to manage long-term aspects of quality requirements.}
+%
+% \eric{Agile System Development needs a user value and a system understanding perspective. This is based on \cite{Kasauli2017a}.}
+%
+In agile requirements engineering, a lot of emphasis is on understanding and communicating customer and end-user value \cite{Alahyari2016}.
+This is important, since agile approaches rely on self-organized teams with some autonomy \cite{Meyer2014} and these teams need to understand what provides customer value, before they can make decisions \cite{Kasauli2017}.
+Pre-agile approaches to requirements engineering emphasize the importance of distinguishing between user requirements and system requirements \cite{Sommerville2006} and this importance has been confirmed for requirements engineering in large-scale agile system development \cite{Kasauli2017a}. Incremental agile development and continuous delivery do not only require an excellent understanding of customer value, but also effective knowledge about how and why the current system was built. 
+
+Consequently, many challenges in agile management of quality requirements relate to a lack of consideration of this system perspective in agile development, e.g. %\emph
+{focusing on delivering functionality at the cost of architecture flexibility} as well as %\emph
+{ignoring predictable architecture requirements} \cite{Alsaqaf2017}. 
+
+\textbf{Proposition 2} (Customer value vs. System knowledge): \emph{ We claim that both JIT and long-term management of quality requirements must consider both a user (or: market) value perspective and a system requirements perspective.}
+%
+We argue that most qualities cannot be significantly improved just-in-time. 
+While for example a single change can destroy security or safety of a system, the only way to create a system that has these properties is to grow it around a strong notion of the most important qualities. 
+The knowledge how this has been done must be conserved and must be made accessible for JIT quality requirements activities.
+
+In this position paper, we revisit well established knowledge management literature with our two key propositions in mind.
+ 
+
+%In the following Section, we discuss foundations of knowledge management and how they relate to requirements engineering. In Section 3, we discuss the aspects and constraints of a suitable knowledge management framework for quality requirements in agile. 
+%By this, we hope to enable more research on this important topic and discuss implications for future research in Section 3.
+
+%\begin{itemize}
+%    \item NEW: There exist different schools of knowledge management and we can conclude that there are alternatives to a technocratical, database centric approach. Behavioral and business perspectives are important in agile. (argue with EKSE book,  p60)
+%  \item NEW: Business value in agile methods does very well fit into this view.
+%
+% \end{itemize}
